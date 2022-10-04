@@ -12,5 +12,5 @@ Although, DVC can work independently of git, it is recommended to use with it as
 
 # How DVC Works
 
-# Installation and Quick Demo
+# Installation and Versioning Large Files 
 [Click for instalation and introduction to DVC basic concepts](demo.md)
