@@ -9,14 +9,9 @@ In a devlelopment of a large ML project the model and dataset usually changes. W
 
 
 
-# Advantages
+# Content
 * [Managing Large Files](files.md)
 * [Lightweight pipelines](pipelines.md)
 * [Code Reproducibility](repro.md)
+* [DVC Workflow](DVC_Workflows.md)
 
-# DVC Workflow
-
-# How DVC Works
-
-# Installation and Versioning Large Files 
-[Click for instalation and introduction to DVC basic concepts](demo.md)
