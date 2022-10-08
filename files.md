@@ -1,10 +1,14 @@
 # Versioning Large Files
 DVC can take a snapshot of a data file and commit it to git without storing the file. Under the hood, DVC creates a file that contains only a meta-data of the file, the file itself can be stored on your computer or on cloud. The meta-file connects the file stored outside git with your git files and thanks to that link you can use DVC to create and restore previous version of your dataset. 
 
-In case of a collaboration with others it might be useful to store the files on the cloud - s3, gs, azure, oss, ssh are all available. 
+In case of a collaboration with others it might be useful to store dataset on a cloud - s3, gs, azure, oss, ssh options are all available. When a shared pool is estabilished, given that the meta-files point to the file in a shared pool, only cloning the git repository is sufficient to run the code properly. DVC will handle the link between the meta-file in git repository with the actuall file in cloud storage. 
 
 Following picture shows how each commit contains information about changes to data as well as featurs and model in case of, for example, ML project:
-![picture](https://dvc.org/static/39d86590fa8ead1cd1247c883a8cf2c0/cb690/project-versions.png)
+
+
+<p align="center">
+<img src="https://dvc.org/static/39d86590fa8ead1cd1247c883a8cf2c0/cb690/project-versions.png" height = "280" width="400"/>
+</p>
 
 # Quick Demo
 How to install DVC can be found [here](https://github.com/iterative/dvc#installation).
