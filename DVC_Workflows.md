@@ -8,6 +8,9 @@ https://miro.medium.com/max/786/1*xcKTNUphlxoKWlbGMoZZPA.png
 
 Git works well as a platform for the version control of codes. However, it faces some limitations when used for controlling the version of data and models. The reason is that internet hosting services like GitHub have a strictly limited capacity for uploaded files but the ML experiments typically need large-scale datasets, which might often change in the process of searching for a final model. [^1] [^2] 
 
+Systems for data version control have been created to overcome these problems. A benefit of working with DVC is that the syntax is very similar to the one of Git.[^1] Nevertheless, there are some differences between usual Git and DVC workflows. The DVC workflow is typical for various data science tasks and projects. The figures below depict examples of both workflows graphically:[^3]    
+
 [^1]: https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0
 [^2]: https://towardsdatascience.com/version-control-ml-model-4adb2db5f87c
+[^3]: https://www.slideshare.net/DmitryPetrov15/pydata-berlin-2018-dvcorg
  
