@@ -10,7 +10,11 @@ Git works well as a platform for the version control of codes. However, it faces
 
 Systems for data version control have been created to overcome these problems. A benefit of working with DVC is that the syntax is very similar to the one of Git.[^1] Nevertheless, there are some differences between usual Git and DVC workflows. The DVC workflow is typical for various data science tasks and projects. The figures below depict examples of both workflows graphically:[^3]    
 
+...
+The DVC (Data Science) workflow allows different people to experiment with different ideas without a long time spent waiting.[^3] An example of good practice is that a separate branch is made for every experiment, followed by a merge in case of success. DVC enables users easily check previous experiments without the need to rerun them every time.[^4] Another useful tip is to keep failed experiments and remove those that are not important anymore.[^3]   
+
 [^1]: https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0
 [^2]: https://towardsdatascience.com/version-control-ml-model-4adb2db5f87c
 [^3]: https://www.slideshare.net/DmitryPetrov15/pydata-berlin-2018-dvcorg
+[^4]: https://dvc.org/doc/user-guide/overview
  
