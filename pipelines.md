@@ -3,8 +3,7 @@ DVC allows to define a pipiline process. Such process include actions such as tr
 
 Following picture displays how a structure of a pipeline can look like:
 
-'''bash
-dvc dag
+
          +---------+
          | prepare |
          +---------+
@@ -20,7 +19,7 @@ dvc dag
           +-------+
           | train |
           +-------+
-'''
+
 
 ## Code Reproducibility
 Data modeling helps with sharing data files and versioning of a pipline then makes possible to easily reproduce code among collaborators. 
