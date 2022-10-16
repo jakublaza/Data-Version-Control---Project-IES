@@ -10,7 +10,7 @@ Following picture shows how each commit contains information about changes to da
 <img src="https://dvc.org/static/39d86590fa8ead1cd1247c883a8cf2c0/cb690/project-versions.png" height = "280" width="400"/>
 </p>
 
-# Quick Demo
+## Quick Demo
 How to install DVC can be found [here](https://github.com/iterative/dvc#installation).
 
 After DVC has been installed, it is possible to start DVC by initializing it in a Git repository: 
@@ -39,6 +39,6 @@ dvc checkout
 ```
 And your version of dataset in one commit behind HEAD will be loaded. 
 
-## Source
+## Sources
 
 https://dvc.org/doc/use-cases/versioning-data-and-models/tutorial
