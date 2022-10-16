@@ -27,7 +27,7 @@ Data modeling helps with sharing data files and versioning of a pipline then mak
 
 
 
-## Source 
+## Sources 
 
 https://dvc.org/doc/start/data-management/data-pipelines
 

@@ -8,6 +8,8 @@
 
 Nowadays, Iterative has around 60 teammates in 24 countries and the community has more than 6250 members.[^2][^3]
 
+## Sources
+
 [^1]: https://iterative.ai/blog/dvc-3-years-and-1-0-release
 [^2]: https://iterative.ai/about
 [^3]: https://dvc.org/community
