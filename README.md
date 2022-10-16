@@ -14,4 +14,5 @@ Although, DVC can work independently of git, it is recommended to use with it as
 * [Lightweight pipelines](pipelines.md)
 * [Machine Learning with DVC](ml.md)
 * [DVC Workflow](DVC_Workflows.md)
+* [History of DVC](History_of_DVC.md)
 
